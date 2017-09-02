@@ -1,3 +1,11 @@
 body{
   text-align:center;
 }
+.jumbotron {
+  margin-bottom: 0px;
+  margin-top: 25px;
+  height: 250px;
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em;
+  background:gray;
+}

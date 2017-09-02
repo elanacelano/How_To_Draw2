@@ -15943,9 +15943,9 @@ var App = function (_React$Component) {
             _react2.default.createElement(
               'strong',
               null,
-              'Well done!'
+              'It\'s EASY!'
             ),
-            ' You successfully read this important alert message.'
+            ' Let\'s get started!'
           ),
           _react2.default.createElement(Child, null),
           _react2.default.createElement(_Form2.default, null)
@@ -28280,7 +28280,7 @@ exports = module.exports = __webpack_require__(87)(undefined);
 
 
 // module
-exports.push([module.i, "body{\n  text-align:center;\n}\n", ""]);
+exports.push([module.i, "body{\n  text-align:center;\n}\n.jumbotron {\n  margin-bottom: 0px;\n  margin-top: 25px;\n  height: 250px;\n  color: white;\n  text-shadow: black 0.3em 0.3em 0.3em;\n  background:gray;\n}", ""]);
 
 // exports
 

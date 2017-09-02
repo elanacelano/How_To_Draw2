@@ -17,7 +17,7 @@ class App extends React.Component {
             <h2>learn to draw with these easy tutorials!</h2>
           </Jumbotron>
           <Alert color="info">
-            <strong>Well done!</strong> You successfully read this important alert message.
+            <strong>It's EASY!</strong> Let's get started!
             </Alert>
             <Child/>
             <Form/>
