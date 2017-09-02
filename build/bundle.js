@@ -32322,9 +32322,118 @@ function getTransitionProperties() {
 
 /***/ }),
 /* 241 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed: SyntaxError: Unexpected token (7:0)\n\n\u001b[0m \u001b[90m  5 | \u001b[39m\n \u001b[90m  6 | \u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  7 | \u001b[39m\u001b[36mdefault\u001b[39m \u001b[36mclass\u001b[39m \u001b[33mLogin\u001b[39m \u001b[36mextends\u001b[39m \u001b[33mReact\u001b[39m\u001b[33m.\u001b[39m\u001b[33mComponent\u001b[39m {\n \u001b[90m    | \u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  8 | \u001b[39m  constructor(props){\n \u001b[90m  9 | \u001b[39m    \u001b[36msuper\u001b[39m(props)\u001b[33m;\u001b[39m\n \u001b[90m 10 | \u001b[39m    \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mstate \u001b[33m=\u001b[39m {\u001b[0m\n");
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(14);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _helpers = __webpack_require__(204);
+
+var _helpers2 = _interopRequireDefault(_helpers);
+
+var _reactstrap = __webpack_require__(94);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Login = function (_React$Component) {
+  _inherits(Login, _React$Component);
+
+  function Login(props) {
+    _classCallCheck(this, Login);
+
+    var _this = _possibleConstructorReturn(this, (Login.__proto__ || Object.getPrototypeOf(Login)).call(this, props));
+
+    _this.state = {
+      form: {
+        email: "",
+        password: ""
+      }
+    };
+    _this.changeForm = _this.changeForm.bind(_this);
+    _this.submitForm = _this.submitForm.bind(_this);
+    return _this;
+  }
+
+  _createClass(Login, [{
+    key: "changeForm",
+    value: function changeForm(event) {
+      var field = event.target.name;
+      var form = this.state.form;
+      form[field] = event.target.value;
+      this.setState({ form: form });
+    }
+  }, {
+    key: "submitForm",
+    value: function submitForm(event) {
+      event.preventDefault();
+      _helpers2.default.createUser(this.state.form).then(function (data) {
+        console.log("Success!!!!");
+      });
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "div",
+        { className: "Login" },
+        _react2.default.createElement(
+          _reactstrap.Form,
+          null,
+          _react2.default.createElement(
+            _reactstrap.FormGroup,
+            { row: true },
+            _react2.default.createElement(
+              _reactstrap.Label,
+              { "for": "exampleEmail", sm: 2 },
+              "Email"
+            ),
+            _react2.default.createElement(
+              _reactstrap.Col,
+              { sm: 10 },
+              _react2.default.createElement(_reactstrap.Input, { type: "email", name: "email", id: "exampleEmail", placeholder: "with a placeholder", onChange: this.changeForm })
+            ),
+            _react2.default.createElement(
+              _reactstrap.Label,
+              { "for": "examplePassword", sm: 2 },
+              "Password"
+            ),
+            _react2.default.createElement(
+              _reactstrap.Col,
+              { sm: 10 },
+              _react2.default.createElement(_reactstrap.Input, { type: "password", name: "password", id: "examplePassword", placeholder: "with a placeholder", onChange: this.changeForm })
+            )
+          ),
+          _react2.default.createElement(
+            _reactstrap.Button,
+            { color: "primary", size: "lg", onClick: this.submitForm },
+            "Submit"
+          ),
+          " "
+        )
+      );
+    }
+  }]);
+
+  return Login;
+}(_react2.default.Component);
+
+exports.default = Login;
 
 /***/ })
 /******/ ]);

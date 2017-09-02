@@ -4,7 +4,7 @@ import { Col, Button, Form, FormGroup, Label, Input, FormText, Jumbotron, Contai
 
 
 
-default class Login extends React.Component {
+class Login extends React.Component {
   constructor(props){
     super(props);
     this.state = {
