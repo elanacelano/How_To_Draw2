@@ -15893,6 +15893,10 @@ var _Form = __webpack_require__(203);
 
 var _Form2 = _interopRequireDefault(_Form);
 
+var _Login = __webpack_require__(241);
+
+var _Login2 = _interopRequireDefault(_Login);
+
 var _reactstrap = __webpack_require__(94);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -15948,7 +15952,8 @@ var App = function (_React$Component) {
             ' Let\'s get started!'
           ),
           _react2.default.createElement(Child, null),
-          _react2.default.createElement(_Form2.default, null)
+          _react2.default.createElement(_Form2.default, null),
+          _react2.default.createElement(_Login2.default, null)
         )
       );
     }
@@ -28280,7 +28285,7 @@ exports = module.exports = __webpack_require__(87)(undefined);
 
 
 // module
-exports.push([module.i, "body{\n  text-align:center;\n}\n.jumbotron {\n  margin-bottom: 0px;\n  margin-top: 25px;\n  height: 250px;\n  color: white;\n  text-shadow: black 0.3em 0.3em 0.3em;\n  background:gray;\n}", ""]);
+exports.push([module.i, "body{\n  text-align:center;\n}\n.jumbotron {\n  margin-bottom: 0px;\n  margin-top: 25px;\n  height: 250px;\n  color: white;\n  text-shadow: black 0.3em 0.3em 0.3em;\n  background:\"pencils.jpg\";\n}", ""]);
 
 // exports
 
@@ -32314,6 +32319,13 @@ function getTransitionProperties() {
 
   return { animationEnd: animationEnd, transitionEnd: transitionEnd, prefix: prefix };
 }
+
+/***/ }),
+/* 241 */
+/***/ (function(module, exports) {
+
+"use strict";
+throw new Error("Module build failed: SyntaxError: Unexpected token (7:0)\n\n\u001b[0m \u001b[90m  5 | \u001b[39m\n \u001b[90m  6 | \u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  7 | \u001b[39m\u001b[36mdefault\u001b[39m \u001b[36mclass\u001b[39m \u001b[33mLogin\u001b[39m \u001b[36mextends\u001b[39m \u001b[33mReact\u001b[39m\u001b[33m.\u001b[39m\u001b[33mComponent\u001b[39m {\n \u001b[90m    | \u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  8 | \u001b[39m  constructor(props){\n \u001b[90m  9 | \u001b[39m    \u001b[36msuper\u001b[39m(props)\u001b[33m;\u001b[39m\n \u001b[90m 10 | \u001b[39m    \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mstate \u001b[33m=\u001b[39m {\u001b[0m\n");
 
 /***/ })
 /******/ ]);
