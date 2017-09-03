@@ -8,8 +8,6 @@ import { Alert, Container, Jumbotron, Card, CardBlock, CardTitle, CardSubtitle }
 
 class App extends React.Component {
   render() {
-    const name = "Peter";
-    const age = 30;
     return (
       <div className="App">
        <Container>
