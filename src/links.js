@@ -1,14 +1,19 @@
-export default links;
-import React from 'react';
-import { Card, Button, CardImg, CardTitle, CardText, CardDeck,
- CardSubtitle, CardBlock } from 'reactstrap';
+import React from "react";
+import helpers from "./utils/helpers";
+import { Col, Button, Form, FormGroup, Label, Input, FormText, Jumbotron, Container, Card, CardImg, CardTitle, CardText, CardDeck,
+//  CardSubtitle, CardBlock  } from "reactstrap";
+// export default links;
+// import React from 'react';
+// import { Card, Button, CardImg, CardTitle, CardText, CardDeck,
+//  CardSubtitle, CardBlock } from 'reactstrap';
 
-const links = (props) => {
+// const links = (props) => {
+class Links extends React.Component {
   render() {
       return (
         <CardDeck>
           <Card>
-            <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+            <CardImg top width="100%" src="" alt="Card image cap" />
             <CardBlock>
               <CardTitle>Card title</CardTitle>
               <CardSubtitle>Card subtitle</CardSubtitle>
@@ -17,7 +22,7 @@ const links = (props) => {
             </CardBlock>
           </Card>
           <Card>
-            <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+            <CardImg top width="100%" src="" alt="Card image cap" />
             <CardBlock>
               <CardTitle>Card title</CardTitle>
               <CardSubtitle>Card subtitle</CardSubtitle>
@@ -26,7 +31,7 @@ const links = (props) => {
             </CardBlock>
           </Card>
           <Card>
-            <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+            <CardImg top width="100%" src="" alt="Card image cap" />
             <CardBlock>
               <CardTitle>Card title</CardTitle>
               <CardSubtitle>Card subtitle</CardSubtitle>
@@ -38,4 +43,4 @@ const links = (props) => {
       );
     };
   }
-export default links;
+export default Links;
