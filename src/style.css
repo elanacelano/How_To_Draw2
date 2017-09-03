@@ -1,5 +1,6 @@
 body{
   text-align:center;
+  background: "./src/views/pencils.jpg";
 }
 .jumbotron {
   margin-bottom: 0px;
@@ -7,5 +8,5 @@ body{
   height: 250px;
   color: white;
   text-shadow: black 0.3em 0.3em 0.3em;
-/*  background: url("./src/views/pencils.jpg");*/
+  background: url("../src/views/pencils.jpg");
 }
