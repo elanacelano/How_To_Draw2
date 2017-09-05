@@ -30,6 +30,7 @@
     "axios": "^0.16.2",
     "body-parser": "^1.17.2",
     "bootstrap": "^4.0.0-alpha.6",
+    "cheerio": "^1.0.0-rc.2",
     "cookie-parser": "^1.4.3",
     "express": "^4.15.4",
     "express-session": "^1.15.5",
