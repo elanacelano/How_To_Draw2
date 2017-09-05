@@ -24,7 +24,8 @@ class App extends React.Component {
             <Child/>
             <Form/>
             <Login/>
-       </Container>
+       // </Container>
+       </div>
       </div>
     )
   }

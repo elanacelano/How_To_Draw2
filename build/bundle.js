@@ -60,16 +60,14 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 99);
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
-/******/ ({
-
-/***/ 99:
+/******/ ([
+/* 0 */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: SyntaxError: Expected corresponding JSX closing tag for <div> (27:7)\n\n\u001b[0m \u001b[90m 25 | \u001b[39m            \u001b[33m<\u001b[39m\u001b[33mForm\u001b[39m\u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 26 | \u001b[39m            \u001b[33m<\u001b[39m\u001b[33mLogin\u001b[39m\u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 | \u001b[39m       \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mContainer\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m    | \u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 | \u001b[39m      \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 29 | \u001b[39m    )\n \u001b[90m 30 | \u001b[39m  }\u001b[0m\n");
+throw new Error("Module build failed: SyntaxError: Expected corresponding JSX closing tag for <div> (27:10)\n\n\u001b[0m \u001b[90m 25 | \u001b[39m            \u001b[33m<\u001b[39m\u001b[33mForm\u001b[39m\u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 26 | \u001b[39m            \u001b[33m<\u001b[39m\u001b[33mLogin\u001b[39m\u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 | \u001b[39m       \u001b[90m// </Container>\u001b[39m\n \u001b[90m    | \u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 | \u001b[39m       \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 29 | \u001b[39m      \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 30 | \u001b[39m    )\u001b[0m\n");
 
 /***/ })
-
-/******/ });
+/******/ ]);

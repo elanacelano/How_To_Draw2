@@ -4,6 +4,7 @@ var cookieParser = require("cookie-parser");
 var session = require("express-session");
 var User = require("./models/User");
 var app = express();
+var cheerio = require("cheerio");
 
 
 app.use(bodyParser.json({}));
