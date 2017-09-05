@@ -16016,17 +16016,7 @@ var Child = function (_React$Component2) {
             _react2.default.createElement(
               _reactstrap.CardTitle,
               null,
-              'I am a child'
-            ),
-            _react2.default.createElement(
-              _reactstrap.CardSubtitle,
-              null,
-              'my parent is the ',
-              _react2.default.createElement(
-                'code',
-                null,
-                'App Component'
-              )
+              'Sign in now'
             )
           )
         )
@@ -28315,7 +28305,7 @@ exports = module.exports = __webpack_require__(89)(undefined);
 
 
 // module
-exports.push([module.i, "body {\n  text-align:center;\n  background: \"./src/views/pencils.jpg\";\n}\n@jumbotron {\n  margin-bottom: 0px;\n  margin-top: 25px;\n  height: 250px;\n  color: white;\n  text-shadow: black 0.3em 0.3em 0.3em;\n/*  background: url(\"./src/views/pencils.jpg\");\n*/}\nForm {\n\ttext-align: right;\n\twidth: 475px;\n\t/*height: 475px;*/\n\tpadding: 5px;\n\tborder: 10px;\n}", ""]);
+exports.push([module.i, "body {\n  text-align:center;\n  background: \"./src/views/pencils.jpg\";\n}\n.jumbotron {\n  font-family: 'Josefin Sans', sans-serif;\n  font-size: 100px;\n  margin-bottom: 25px;\n  margin-top: 40px;\n  height: 250px;\n  color: white;\n  background-color: #0E2431;\n  font-stretch: 10px; \t\n/*  text-shadow: black 0.3em 0.3em 0.3em;*/\n  background-image: \"pencils.jpg\";\n}\nForm {\n\ttext-align: right;\n\twidth: 475px;\n\tpadding: 5px;\n\tborder: 10px;\n\tmargin: 50px;\n\tbackground-color: lightblue;\n}\n.Child {\n\ttext-align: right;\n\twidth: 475px;\n\t/*height: 475px;*/\n\tpadding: 5px;\n\tborder: 10px;\n}\nfooter {\n\twidth: 475px;\n\theight: 25px;\n  \tbackground-color: #FC3A52;\n}", ""]);
 
 // exports
 

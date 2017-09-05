@@ -36,8 +36,7 @@ class Child extends React.Component {
       <div className="children">
       <Card>
         <CardBlock>
-          <CardTitle>I am a child</CardTitle>
-          <CardSubtitle>my parent is the <code>App Component</code></CardSubtitle>
+          <CardTitle>Sign in now</CardTitle>
         </CardBlock>
       </Card>
       </div>

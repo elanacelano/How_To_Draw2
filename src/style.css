@@ -2,18 +2,35 @@ body {
   text-align:center;
   background: "./src/views/pencils.jpg";
 }
-@jumbotron {
-  margin-bottom: 0px;
-  margin-top: 25px;
+.jumbotron {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 100px;
+  margin-bottom: 25px;
+  margin-top: 40px;
   height: 250px;
   color: white;
-  text-shadow: black 0.3em 0.3em 0.3em;
-/*  background: url("./src/views/pencils.jpg");
-*/}
+  background-color: #0E2431;
+  font-stretch: 10px; 	
+/*  text-shadow: black 0.3em 0.3em 0.3em;*/
+  background-image: "pencils.jpg";
+}
 Form {
+	text-align: right;
+	width: 475px;
+	padding: 5px;
+	border: 10px;
+	margin: 50px;
+	background-color: lightblue;
+}
+.Child {
 	text-align: right;
 	width: 475px;
 	/*height: 475px;*/
 	padding: 5px;
 	border: 10px;
+}
+footer {
+	width: 475px;
+	height: 25px;
+  	background-color: #FC3A52;
 }
