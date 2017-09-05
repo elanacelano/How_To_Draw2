@@ -1,6 +1,6 @@
 import React from 'react';
 import helpers from "./utils/helpers";
-import { Col, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Col, Button, Form, FormGroup, Label, Input, FormText, Jumbotron, Container} from 'reactstrap';
 
 
 class Forms extends React.Component {
@@ -35,14 +35,14 @@ class Forms extends React.Component {
         <FormGroup row>
           <Label for="exampleEmail" sm={2}>Email</Label>
           <Col sm={10}>
-            <Input type="email" name="email" id="exampleEmail" placeholder="with a placeholder" onChange={this.changeForm} />
+            <Input type="email" name="email" id="exampleEmail" placeholder="email" width="10px" onChange={this.changeForm} />
           </Col>
            <Label for="examplePassword" sm={2}>Password</Label>
           <Col sm={10}>
-            <Input type="password" name="password" id="examplePassword" placeholder="with a placeholder" onChange={this.changeForm}/>
+            <Input type="password" name="password" id="examplePassword" placeholder="password" width="10px" onChange={this.changeForm}/>
           </Col>
         </FormGroup>
-        <Button color="primary" onClick={this.submitForm}>Submit</Button>{' '}
+        <Button color="primary" size="lg" onClick={this.submitForm}>Submit</Button>{' '}
         </Form>
       </div>
     )

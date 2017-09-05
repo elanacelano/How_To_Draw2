@@ -27,10 +27,10 @@ export default class home extends React.Component {
               <NavItem>
                 <NavLink href="/components/">Tutorials</NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">Github</NavLink>
-              </NavItem>
-            </Nav>
+            //   <NavItem>
+            //     <NavLink href="https://github.com/reactstrap/reactstrap">Github</NavLink>
+            //   </NavItem>
+            // </Nav>
           </Collapse>
         </Navbar>
       </div>
