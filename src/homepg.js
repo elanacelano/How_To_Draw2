@@ -1,4 +1,5 @@
 import React from 'react';
+import helpers from "./utils/helpers";
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
 export default class home extends React.Component {
@@ -36,3 +37,5 @@ export default class home extends React.Component {
     );
   }
 }
+
+export default homepg;
