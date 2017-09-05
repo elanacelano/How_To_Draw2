@@ -42,6 +42,7 @@
     "react-addons-transition-group": "^15.6.0",
     "react-dom": "^15.6.1",
     "react-pinterest": "^1.2.0",
+    "react-router": "^4.2.0",
     "react-router-dom": "^4.1.2",
     "react-youtube": "^7.4.0",
     "reactstrap": "^4.8.0"
