@@ -27,9 +27,9 @@ export default class home extends React.Component {
               <NavItem>
                 <NavLink href="/components/">Tutorials</NavLink>
               </NavItem>
-              // <NavItem>
-              //   <NavLink href="https://github.com/reactstrap/reactstrap">Github</NavLink>
-              // </NavItem>
+              <NavItem>
+                <NavLink href="https://github.com/reactstrap/reactstrap">Github</NavLink>
+              </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
@@ -38,4 +38,5 @@ export default class home extends React.Component {
   }
 }
 
-export default homepg;
+ReactDOM.render(<App/>, document.getElementById('root'));
+// export default homepg;

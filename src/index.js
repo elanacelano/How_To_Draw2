@@ -5,7 +5,7 @@ import './style.css';
 import Form from "./Form";
 import Login from './Login';
 import Links from "./Links";
-import home from "./homepg";
+import homepg from "./homepg";
 import { Alert, Container, Jumbotron, Card, CardBlock, CardTitle, CardSubtitle } from 'reactstrap';
 
 class App extends React.Component {
@@ -24,12 +24,11 @@ class App extends React.Component {
             <Child/>
             <Form/>
             <Login/>
-       // </Container>
-       </div>
+        
       </div>
     )
   }
-}
+};
 
 class Child extends React.Component {
   render(){
