@@ -66,7 +66,23 @@ app.get("/scrape", function(req, res) {
 });
 
 
+app.get("/DrawingVideos", function(req, res) {
+	app.use(express.static(__dirname + "/build/"));
+	res.sendFile(__dirname + "/build/index.html");
+})
 
+
+app.post("*", function(req, res){
+	console.log(req.body);
+	User.create({
+		username:req.body.email,
+		password:req.body.password
+	}, function(err,data){
+		if(err) throw err;
+		console.log(data);
+		return data;
+	})
+});
 
 
 

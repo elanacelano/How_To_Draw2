@@ -1,12 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.css';
-import './style.css';
-import Form from "./Form";
-import Login from './Login';
+import React from "react";
+import ReactDOM from "react-dom";
+import "bootstrap/dist/css/bootstrap.css";
+import "./style.css";
+import DrawingVideos from "./DrawingsVideos.js";
 import Links from "./Links";
 import homepg from "./homepg";
-import { Alert, Container, Jumbotron, Card, CardBlock, CardTitle, CardSubtitle } from 'reactstrap';
+import { Alert, Container, Jumbotron, Card, CardBlock, CardTitle, CardSubtitle } from "reactstrap";
 
 class App extends React.Component {
   render() {
@@ -22,10 +21,8 @@ class App extends React.Component {
             <strong>It's EASY!</strong> Let's get started!
             </Alert>
             <Child/>
-            <Form/>
-            <Login/>
-        
-      </div>
+          <DrawingVideos/>  
+      </div> 
     )
   }
 };
@@ -45,4 +42,4 @@ class Child extends React.Component {
 }
 
 
-ReactDOM.render(<App/>, document.getElementById('root'));
+ReactDOM.render(<App/>, document.getElementById("root"));
