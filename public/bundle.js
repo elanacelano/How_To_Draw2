@@ -15319,10 +15319,82 @@ if(false) {
 
 /***/ }),
 /* 92 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-throw new Error("Module build failed: SyntaxError: Adjacent JSX elements must be wrapped in an enclosing tag (32:0)\n\n\u001b[0m \u001b[90m 30 | \u001b[39m\n \u001b[90m 31 | \u001b[39m\u001b[90m// eyes\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 32 | \u001b[39m\u001b[33m<\u001b[39m\u001b[33miframe\u001b[39m width\u001b[33m=\u001b[39m\u001b[32m\"420\"\u001b[39m height\u001b[33m=\u001b[39m\u001b[32m\"345\"\u001b[39m src\u001b[33m=\u001b[39m\u001b[32m\"https://www.youtube.com/watch?v=UADEFQ4EjIA&t=21s>\u001b[39m\n \u001b[90m    | \u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 33 | \u001b[39m\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33miframe\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 34 | \u001b[39m\n \u001b[90m 35 | \u001b[39m          )\u001b[33m;\u001b[39m\u001b[0m\n");
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(13);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(29);
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+__webpack_require__(88);
+
+__webpack_require__(91);
+
+var _DrawingVideos = __webpack_require__(92);
+
+var _DrawingVideos2 = _interopRequireDefault(_DrawingVideos);
+
+var _Links = __webpack_require__(93);
+
+var _Links2 = _interopRequireDefault(_Links);
+
+var _homepg = __webpack_require__(102);
+
+var _homepg2 = _interopRequireDefault(_homepg);
+
+var _reactstrap = __webpack_require__(55);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var drawingVideos = function (_React$Component) {
+  _inherits(drawingVideos, _React$Component);
+
+  function drawingVideos() {
+    _classCallCheck(this, drawingVideos);
+
+    return _possibleConstructorReturn(this, (drawingVideos.__proto__ || Object.getPrototypeOf(drawingVideos)).apply(this, arguments));
+  }
+
+  _createClass(drawingVideos, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "div",
+        { "class": "video" },
+        _react2.default.createElement(_reactstrap.Video, { from: "youtube", videoId: "vBySO76EPSM" }),
+        _react2.default.createElement(
+          "div",
+          { "class": "video", src: "html5-video-container", "data-layer": "0" },
+          _react2.default.createElement("video", { tabindex: "-1", "class": "video-stream html5-main-video",
+            controlslist: "nodownload", style: "width: 426px; height: 240px; left: 0px; top: 0px; opacity: 1;",
+            src: "blob:https://www.youtube.com/bcff906d-7dae-4179-add1-97fcf86cbe86" })
+        )
+      );
+    }
+  }]);
+
+  return drawingVideos;
+}(_react2.default.Component);
+
+exports.default = drawingVideos;
 
 /***/ }),
 /* 93 */

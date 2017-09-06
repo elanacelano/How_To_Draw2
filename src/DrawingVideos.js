@@ -20,6 +20,18 @@ export default class drawingVideos extends React.Component {
               src="blob:https://www.youtube.com/bcff906d-7dae-4179-add1-97fcf86cbe86"></video>
             </div>
           </div>  
+          // hair
+// https://www.youtube.com/watch?v=7awz4iVRgFo
+          // hands
+// https://www.youtube.com/watch?v=JWHztcZHmfc&t=76s
+          // eyes
+// https://www.youtube.com/watch?v=UADEFQ4EjIA&t=21s          
+
+
+// eyes
+<iframe width="420" height="345" src="https://www.youtube.com/watch?v=UADEFQ4EjIA&t=21s>
+</iframe>
+
           );
         }
       }

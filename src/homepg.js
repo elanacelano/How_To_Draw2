@@ -29,9 +29,9 @@ export default class homepg extends React.Component {
               <NavItem>
                 <NavLink href="/components/">Tutorials</NavLink>
               </NavItem>
-            </Collapse>          
-          </Nav>
-      </div>
+              <Nav/>          
+          </Collapse>          
+      <div/>
     );
   }
 }

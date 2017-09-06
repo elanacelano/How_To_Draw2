@@ -11,22 +11,14 @@ class Header extends Component {
 
 				<nav>
 					<ul>
-						<li>
-						<a href="#"><
+						<li className="first">
+							<a href="#">Home</a>
 						</li>
-					</ul>
-				</nav>	
-				<nav>
-					<ul>
 						<li>
-						<a href="#"><
+							<a href="#">DrawingVideos</a>
 						</li>
-					</ul>
-				</nav>	
-				<nav>
-					<ul>
 						<li>
-						<a href="#"><
+							<a href="#"></a>
 						</li>
 					</ul>
 				</nav>		
