@@ -15897,10 +15897,6 @@ var _Links = __webpack_require__(204);
 
 var _Links2 = _interopRequireDefault(_Links);
 
-var _homePage = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./homePage\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
-
-var _homePage2 = _interopRequireDefault(_homePage);
-
 var _reactstrap = __webpack_require__(94);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -15910,6 +15906,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+// import Homepage from "./homePage";
+
 
 var App = function (_React$Component) {
   _inherits(App, _React$Component);
@@ -28285,9 +28283,85 @@ exports.push([module.i, "body {\n  text-align:center;\n  background: \"./src/vie
 
 /***/ }),
 /* 203 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed: SyntaxError: Expected corresponding JSX closing tag for <iframe> (23:12)\n\n\u001b[0m \u001b[90m 21 | \u001b[39m            \u001b[33m<\u001b[39m\u001b[33miframe\u001b[39m width\u001b[33m=\u001b[39m\u001b[32m\"420\"\u001b[39m height\u001b[33m=\u001b[39m\u001b[32m\"345\"\u001b[39m src\u001b[33m=\u001b[39m\u001b[32m\"https://www.youtube.com/watch?v=UADEFQ4EjIA&t=21s\"\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 22 | \u001b[39m            \u001b[33m<\u001b[39m\u001b[33miframe\u001b[39m\u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 23 | \u001b[39m            \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m    | \u001b[39m            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 24 | \u001b[39m          \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m  \n \u001b[90m 25 | \u001b[39m          \u001b[90m// hair\u001b[39m\n \u001b[90m 26 | \u001b[39m\u001b[90m// https://www.youtube.com/watch?v=7awz4iVRgFo\u001b[39m\u001b[0m\n");
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(14);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(37);
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+__webpack_require__(198);
+
+__webpack_require__(201);
+
+var _Links = __webpack_require__(204);
+
+var _Links2 = _interopRequireDefault(_Links);
+
+var _reactstrap = __webpack_require__(94);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var drawingVideos = function (_React$Component) {
+  _inherits(drawingVideos, _React$Component);
+
+  function drawingVideos() {
+    _classCallCheck(this, drawingVideos);
+
+    return _possibleConstructorReturn(this, (drawingVideos.__proto__ || Object.getPrototypeOf(drawingVideos)).apply(this, arguments));
+  }
+
+  _createClass(drawingVideos, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "div",
+        { className: "video" },
+        _react2.default.createElement("iframe", { width: "420",
+          height: "345",
+          src: "https://www.youtube.com/watch?v=UADEFQ4EjIA&t=21s" })
+      )
+
+      // hair
+      // https://www.youtube.com/watch?v=7awz4iVRgFo
+      // hands
+      // https://www.youtube.com/watch?v=JWHztcZHmfc&t=76s
+      // eyes
+      // https://www.youtube.com/watch?v=UADEFQ4EjIA&t=21s          
+
+
+      // eyes
+
+
+      ;
+    }
+  }]);
+
+  return drawingVideos;
+}(_react2.default.Component);
+// pinterest DaVinci's Hands
+// <img alt="Today's drawing class: Drawing Techniques by The Old Masters | Da Vinci - hand study | Artists, who are most successful in silverpoint drawing are those with a deep concern for beauty of surface. So an artist such as Leonardo, is much more successful in silverpoint than an artist such as Michelangelo who is relatively heavy-handed in his drawing." class="_mj _25 _3x _2h" src="https://i.pinimg.com/564x/e8/0c/41/e80c410f96d4d50447653cf456a612fa.jpg">
+
+
+exports.default = drawingVideos;
 
 /***/ }),
 /* 204 */
