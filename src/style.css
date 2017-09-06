@@ -29,8 +29,12 @@ Form {
 	padding: 5px;
 	border: 10px;
 }
+video {
+	float: left;
+}
 footer {
-	width: 475px;
+	margin: 5px;
+	width: 100%;
 	height: 25px;
   	background-color: #FC3A52;
 }
