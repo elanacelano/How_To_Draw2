@@ -8,17 +8,17 @@ import homepg from "./homepg";
 import { Alert, Container, Jumbotron, Card, CardBlock, CardTitle, CardSubtitle } from 'reactstrap';
 
 
-export default class Example extends React.Component {
+export default className drawingVideos extends React.Component {
   render() {
     return (
         <div class='video'>
             <Video from='youtube' videoId={"vBySO76EPSM"} />
           </div>
+              <div class="html5-video-container" data-layer="0">
+              <video tabindex="-1" class="video-stream html5-main-video" 
+              controlslist="nodownload" style="width: 426px; height: 240px; left: 0px; top: 0px; opacity: 1;" 
+              src="blob:https://www.youtube.com/bcff906d-7dae-4179-add1-97fcf86cbe86"></video>
+              </div>
           );
         }
       }
-<video tabindex="-1" 
-  class="video-stream html5-main-video" 
-    controlslist="nodownload" 
-        style="width: 426px; height: 240px; left: 0px; top: 0px; opacity: 1;" 
-            src="blob:https://www.youtube.com/bcff906d-7dae-4179-add1-97fcf86cbe86"></video>

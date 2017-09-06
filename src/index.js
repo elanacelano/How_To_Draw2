@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import "./style.css";
-import DrawingVideos from "./DrawingsVideos.js";
+import DrawingVideos from "./DrawingVideos.js";
 import Links from "./Links";
 import homepg from "./homepg";
 import { Alert, Container, Jumbotron, Card, CardBlock, CardTitle, CardSubtitle } from "reactstrap";
