@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./style.css";
 import DrawingVideos from "./DrawingVideos";
 import Links from "./Links";
-import homepg from "./homepg";
+import Homepage from "./homePage";
 import { Alert, Container, Jumbotron, Card, CardBlock, CardTitle, CardSubtitle, Video } from "reactstrap";
 
 
@@ -29,8 +29,8 @@ export default class drawingVideos extends React.Component {
 
 
 // eyes
-<iframe width="420" height="345" src="https://www.youtube.com/watch?v=UADEFQ4EjIA&t=21s>
-</iframe>
+</iframe width="420" height="345" src="https://www.youtube.com/watch?v=UADEFQ4EjIA&t=21s">
+<iframe/>
 
           );
         }

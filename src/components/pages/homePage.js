@@ -1,4 +1,7 @@
 import Reast, { Component } from "react";
+import helpers from "./utils/helpers";
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+
 
 class Homepage extends Component {
 	render() {
@@ -6,7 +9,7 @@ class Homepage extends Component {
 			<div className="container-fluid">
 
 				<h1>
-					Homepage
+					Home
 				</h1>	
 
 			</div>		
