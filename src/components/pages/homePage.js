@@ -1,5 +1,5 @@
 import Reast, { Component } from "react";
-import helpers from "./utils/helpers";
+import helpers from "./src/utils/helpers";
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
 
