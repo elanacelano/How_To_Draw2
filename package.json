@@ -45,6 +45,7 @@
     "react-pinterest": "^1.2.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.1.2",
+    "react-video": "^1.5.3",
     "react-youtube": "^7.4.0",
     "reactstrap": "^4.8.0"
   }
