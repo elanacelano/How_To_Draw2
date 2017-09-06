@@ -35,3 +35,5 @@ export default class drawingVideos extends React.Component {
           );
         }
       }
+    // pinterest DaVinci's Hands
+// <img alt="Today's drawing class: Drawing Techniques by The Old Masters | Da Vinci - hand study | Artists, who are most successful in silverpoint drawing are those with a deep concern for beauty of surface. So an artist such as Leonardo, is much more successful in silverpoint than an artist such as Michelangelo who is relatively heavy-handed in his drawing." class="_mj _25 _3x _2h" src="https://i.pinimg.com/564x/e8/0c/41/e80c410f96d4d50447653cf456a612fa.jpg">
