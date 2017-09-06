@@ -1,32 +1,31 @@
-<link rel="stylesheet" href="/path/react-video.css" />
+import React from 'react';
+import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.css';
+import './style.css';
+import Form from "./Form";
+import Login from './Login';
+import Links from "./Links";
+import homepg from "./homepg";
+import DrawingVideos from "./DrawingVideos";
+import { Alert, Container, Jumbotron, Card, CardBlock, CardTitle, CardSubtitle } from 'reactstrap';
 
-     /** @jsx React.DOM */
-      var Video = require('react-video');
 
-      React.render(
-        <Video from='youtube' videoId={videoId} />,
-        document.querySelector('#your-div')
-      );
-
-      React.render(
-        <Video from='vimeo' videoId={videoId} />,
-        document.querySelector('#your-div')
-      );
-      React.render(
-        <Video videoId={videoId} />,
-        document.querySelector('#your-div')
-      );
-     var _onError = function(err) {
-          console.log(err);
-        };
-
-        React.render(
-          <Video onError={_onError} videoId={videoId} />
-          document.querySelector('#your-div')
-        );
-      
-
-      /** @jsx React.DOM */
-
-      var Video = ReactVideo;
-    
+export default class Example extends React.Component {
+  render() {
+    return (
+        <div class='video'>
+            <div class='video-loading'>
+              <svg>...</svg>
+            </div>
+            <div class='video-image'>
+              <button type='button' class='video-play-button'>
+                <svg>...</svg>
+              </button>
+            </div>
+            <div class='video-embed'>
+              <iframe>...</iframe>
+            </div>
+          </div>
+          );
+        }
+      }
