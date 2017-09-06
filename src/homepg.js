@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from "react";
 import helpers from "./utils/helpers";
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
-export default class home extends React.Component {
+export default class homepg extends React.Component {
   constructor(props) {
     super(props);
 
@@ -21,22 +21,19 @@ export default class home extends React.Component {
       <div>
         <Navbar color="faded" light toggleable>
           <NavbarToggler right onClick={this.toggle} />
-          <NavbarBrand href="/">How To Draw</NavbarBrand>
+
+          <NavbarBrand href="/"> How To Draw </NavbarBrand>
+          
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink href="/components/">Tutorials</NavLink>
               </NavItem>
-            //   <NavItem>
-            //     <NavLink href="https://github.com/reactstrap/reactstrap">Github</NavLink>
-            //   </NavItem>
-            // </Nav>
-          </Collapse>
-        </Navbar>
+            </Collapse>          
+          </Nav>
       </div>
     );
   }
 }
 
-// ReactDOM.render(<App/>, document.getElementById('root'));
-// export default homepg;
+export default homepg;
