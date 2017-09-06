@@ -47,6 +47,7 @@
     "react-router-dom": "^4.1.2",
     "react-video": "^1.5.3",
     "react-youtube": "^7.4.0",
-    "reactstrap": "^4.8.0"
+    "reactstrap": "^4.8.0",
+    "start": "^5.1.0"
   }
 }
