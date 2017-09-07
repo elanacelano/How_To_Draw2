@@ -14,8 +14,9 @@ body {
 /*  text-shadow: black 0.3em 0.3em 0.3em;*/
   background: "pencils.jpg";
 }
-.video {
+#video {
 	float: left;
+	padding: 15px;
 
 }
 Form {
@@ -34,11 +35,11 @@ Form {
 	border: 10px;
 }
 
-/*footer {
+footer {
 	position: absolute;
 	margin: 5px;
 	width: 100%;
 	height: 25px;
 	color: white;
   	background-color: #0E2431;
-}*/
+}

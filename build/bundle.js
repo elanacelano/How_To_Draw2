@@ -15338,6 +15338,10 @@ var _helpers = __webpack_require__(205);
 
 var _helpers2 = _interopRequireDefault(_helpers);
 
+var _DrawingVideos = __webpack_require__(204);
+
+var _DrawingVideos2 = _interopRequireDefault(_DrawingVideos);
+
 var _reactstrap = __webpack_require__(55);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -15464,42 +15468,6 @@ var Links = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Links;
-
-// const Example = (props) => {
-//   return (
-//     <CardDeck>
-//       <Card>
-//         <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
-//         <CardBlock>
-//           <CardTitle>Card title</CardTitle>
-//           <CardSubtitle>Card subtitle</CardSubtitle>
-//           <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
-//           <Button>Button</Button>
-//         </CardBlock>
-//       </Card>
-//       <Card>
-//         <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
-//         <CardBlock>
-//           <CardTitle>Card title</CardTitle>
-//           <CardSubtitle>Card subtitle</CardSubtitle>
-//           <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
-//           <Button>Button</Button>
-//         </CardBlock>
-//       </Card>
-//       <Card>
-//         <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
-//         <CardBlock>
-//           <CardTitle>Card title</CardTitle>
-//           <CardSubtitle>Card subtitle</CardSubtitle>
-//           <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
-//           <Button>Button</Button>
-//         </CardBlock>
-//       </Card>
-//     </CardDeck>
-//   );
-// };
-
-// export default Example;
 
 /***/ }),
 /* 93 */
@@ -28460,7 +28428,7 @@ exports = module.exports = __webpack_require__(89)(undefined);
 
 
 // module
-exports.push([module.i, "body {\n  text-align:center;\n  background: \"pencils.jpg\" !important;\n}\n.jumbotron {\n  font-family: 'Josefin Sans', sans-serif;\n  font-size: 100px;\n  margin-bottom: 25px;\n  margin-top: 40px;\n  height: 250px;\n  color: white;\n  background-color: #0E2431;\n  font-stretch: 10px; \t\n/*  text-shadow: black 0.3em 0.3em 0.3em;*/\n  background: \"pencils.jpg\";\n}\n.video {\n\tfloat: left;\n\n}\nForm {\n\ttext-align: right;\n\twidth: 475px;\n\tpadding: 5px;\n\tborder: 10px;\n\tmargin: 50px;\n\tbackground-color: lightblue;\n}\n.Child {\n\ttext-align: right;\n\twidth: 475px;\n\t/*height: 475px;*/\n\tpadding: 5px;\n\tborder: 10px;\n}\n\n/*footer {\n\tposition: absolute;\n\tmargin: 5px;\n\twidth: 100%;\n\theight: 25px;\n\tcolor: white;\n  \tbackground-color: #0E2431;\n}*/\n", ""]);
+exports.push([module.i, "body {\n  text-align:center;\n  background: \"pencils.jpg\" !important;\n}\n.jumbotron {\n  font-family: 'Josefin Sans', sans-serif;\n  font-size: 100px;\n  margin-bottom: 25px;\n  margin-top: 40px;\n  height: 250px;\n  color: white;\n  background-color: #0E2431;\n  font-stretch: 10px; \t\n/*  text-shadow: black 0.3em 0.3em 0.3em;*/\n  background: \"pencils.jpg\";\n}\n#video {\n\tfloat: left;\n\tpadding: 15px;\n\n}\nForm {\n\ttext-align: right;\n\twidth: 475px;\n\tpadding: 5px;\n\tborder: 10px;\n\tmargin: 50px;\n\tbackground-color: lightblue;\n}\n.Child {\n\ttext-align: right;\n\twidth: 475px;\n\t/*height: 475px;*/\n\tpadding: 5px;\n\tborder: 10px;\n}\n\nfooter {\n\tposition: absolute;\n\tmargin: 5px;\n\twidth: 100%;\n\theight: 25px;\n\tcolor: white;\n  \tbackground-color: #0E2431;\n}\n", ""]);
 
 // exports
 

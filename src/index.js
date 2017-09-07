@@ -5,6 +5,7 @@ import "./style.css";
 import DrawingVideos from "./DrawingVideos.js";
 import Links from "./Links";
 // import Homepage from "./homePage";
+import "bootstrap/dist/css/bootstrap.css";
 import { Alert, Container, Jumbotron, Card, CardBlock, CardTitle, CardSubtitle } from "reactstrap";
 
 class App extends React.Component {
