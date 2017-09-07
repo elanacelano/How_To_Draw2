@@ -18,7 +18,10 @@ export default class Header extends React.Component {
 							<a href="#">DrawingVideos</a>
 						</li>
 						<li>
-							<a href="#"></a>
+							<a href="#">Tutorials</a>
+						</li>
+						<li>
+							<a href="#">Pictures</a>
 						</li>
 					</ul>
 				</nav>		
