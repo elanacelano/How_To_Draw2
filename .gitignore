@@ -1,2 +1,79 @@
 DS_Store
 node_modules
+
+
+<!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+    <div id="player"></div>
+
+    <script>
+      // 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      // 3. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads.
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '390',
+          width: '640',
+          videoId: 'M7lc1UVf-VE',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+
+      // 4. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+        event.target.playVideo();
+      }
+
+      // 5. The API calls this function when the player's state changes.
+      //    The function indicates that when playing a video (state=1),
+      //    the player should play for six seconds and then stop.
+      var done = false;
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
+          setTimeout(stopVideo, 6000);
+          done = true;
+        }
+      }
+      function stopVideo() {
+        player.stopVideo();
+      }
+________________________
+
+
+
+// chrome.webRequest.onHeadersReceived.addListener(
+//     function(info) {
+//         var headers = info.responseHeaders;
+//         for (var i=headers.length-1; i>=0; --i) {
+//             var header = headers[i].name.toLowerCase();
+//             if (header == 'x-frame-options' || header == 'frame-options') {
+//                 headers.splice(i, 1); // Remove header
+//             }
+//         }
+//         return {responseHeaders: headers};
+//     },
+//     {
+//         urls: [ '*://*/*' ], // Pattern to match all http(s) pages
+//         types: [ 'sub_frame' ]
+//     },
+//     ['blocking', 'responseHeaders']
+// );
+
+
+_____________________
+
+    // pinterest DaVinci's Hands
+// <img alt="Today's drawing class: Drawing Techniques by The Old Masters | Da Vinci - hand study | Artists, who are most successful in silverpoint drawing are those with a deep concern for beauty of surface. So an artist such as Leonardo, is much more successful in silverpoint than an artist such as Michelangelo who is relatively heavy-handed in his drawing." class="_mj _25 _3x _2h" src="https://i.pinimg.com/564x/e8/0c/41/e80c410f96d4d50447653cf456a612fa.jpg">
+
+
+
+
