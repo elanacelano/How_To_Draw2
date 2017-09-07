@@ -1,11 +1,11 @@
-import React from "react";
+import React, from "react";
 
-export default class Header extends React.Component {
+class Header extends Component {
 	render() {
 		return (
 			<header>
 
-			<div className="App">
+			<div className="logo">
 				How To Draw
 			</div>
 

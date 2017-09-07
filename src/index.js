@@ -3,10 +3,9 @@ import ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import "./style.css";
 import DrawingVideos from "./DrawingVideos.js";
+import Drawings from "./components/Search/Drawings";
 import Links from "./Links";
-// import Homepage from "./homePage";
-import "bootstrap/dist/css/bootstrap.css";
-import { Alert, Container, Jumbotron, Card, CardBlock, CardTitle, CardSubtitle } from "reactstrap";
+import { Alert, Container, Jumbotron, Card, CardBlock, CardTitle, CardSubtitle, Component } from "reactstrap";
 
 class App extends React.Component {
   render() {
@@ -15,14 +14,14 @@ class App extends React.Component {
       <Jumbotron fluid> 
         <Container fluid>
             <h1>How To Draw</h1>
-            <h2>learn to draw with these easy tutorials!</h2>
           </Container>
           </Jumbotron>
           <Alert color="info">
-            <strong>It's EASY!</strong> Let's get started!
-            </Alert>
+            <strong>It's EASY!</strong> Let's get started!/>
+          </Alert>
             <Child/>
-          <DrawingVideos/>  
+          <DrawingVideos/> 
+        <Drawings/> 
       </div> 
     )
   }
@@ -43,7 +42,4 @@ class Child extends React.Component {
 }
 
 
-ReactDOM.render(
-  <App />, 
-  document.getElementById("root")
-  );
+ReactDOM.render(<App />, document.getElementById("root"));
