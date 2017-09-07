@@ -13,22 +13,14 @@ export default class drawingVideos extends React.Component {
     return (
         <div className="video">
             <div>
-            <iframe width="640" 
-                height="420" 
-                src="https://www.youtube.com/watch?v=UADEFQ4EjIA&t=21s">
-              </iframe>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/UADEFQ4EjIA" frameborder="0" allowfullscreen></iframe>
+              
             </div>
           <div className="video2">
-            <iframe width="640" 
-                height="420" 
-                src="https://www.youtube.com/watch?v=JWHztcZHmfc&t=76s">
-              </iframe>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/JWHztcZHmfc" frameborder="0" allowfullscreen></iframe>
             </div>
         <div className="video3">
-            <iframe width="640" 
-                height="420" 
-                src="https://www.youtube.com/watch?v=7awz4iVRgFo">
-              </iframe>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/7awz4iVRgFo" frameborder="0" allowfullscreen></iframe>
             </div>
           <div className="video4">
             <iframe width="640" 

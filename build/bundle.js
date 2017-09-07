@@ -28490,23 +28490,17 @@ var drawingVideos = function (_React$Component) {
         _react2.default.createElement(
           "div",
           null,
-          _react2.default.createElement("iframe", { width: "640",
-            height: "420",
-            src: "https://www.youtube.com/watch?v=UADEFQ4EjIA&t=21s" })
+          _react2.default.createElement("iframe", { width: "640", height: "360", src: "https://www.youtube.com/embed/UADEFQ4EjIA", frameborder: "0", allowfullscreen: true })
         ),
         _react2.default.createElement(
           "div",
           { className: "video2" },
-          _react2.default.createElement("iframe", { width: "640",
-            height: "420",
-            src: "https://www.youtube.com/watch?v=JWHztcZHmfc&t=76s" })
+          _react2.default.createElement("iframe", { width: "640", height: "360", src: "https://www.youtube.com/embed/JWHztcZHmfc", frameborder: "0", allowfullscreen: true })
         ),
         _react2.default.createElement(
           "div",
           { className: "video3" },
-          _react2.default.createElement("iframe", { width: "640",
-            height: "420",
-            src: "https://www.youtube.com/watch?v=7awz4iVRgFo" })
+          _react2.default.createElement("iframe", { width: "640", height: "360", src: "https://www.youtube.com/embed/7awz4iVRgFo", frameborder: "0", allowfullscreen: true })
         ),
         _react2.default.createElement(
           "div",
