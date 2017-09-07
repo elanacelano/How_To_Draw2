@@ -16,10 +16,7 @@ class App extends React.Component {
             <h1>How To Draw</h1>
           </Container>
           </Jumbotron>
-          <Alert color="info">
-            <strong>It's EASY!</strong> Let's get started!/>
-          </Alert>
-            <Child/>
+          
           <DrawingVideos/> 
         <Drawings/> 
       </div> 

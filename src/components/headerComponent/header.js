@@ -15,10 +15,10 @@ class Header extends Component {
 							<a href="#">Home</a>
 						</li>
 						<li>
-							<a href="#">DrawingVideos</a>
+							<a href="./DrawingVideos.js">DrawingVideos</a>
 						</li>
 						<li>
-							<a href="#">Tutorials</a>
+							<a href="./Drawings.js">Drawings</a>
 						</li>
 						<li>
 							<a href="#">Pictures</a>
