@@ -1,6 +1,6 @@
 body {
   text-align:center;
-  background: "./src/views/pencils.jpg" !important;
+/*  background: "./src/views/pencils.jpg" !important;*/
 }
 
 .logo {
@@ -11,10 +11,10 @@ body {
 header {
 	position: relative;
 	display: block;
-	width: 100%;
+	width: 500%;
 	background: $black;
 	color: $white;
-	height: 90px;
+	height: 50px;
 }
 
 .jumbotron {
@@ -24,12 +24,13 @@ header {
   margin-top: 40px;
   height: 250px;
   color: white;
-  background-color: #0E2431;
+/*  background-color: #0E2431;*/
   font-stretch: 10px; 	
 }
 #videos {
 	height: 100%;
 	width: auto !important;
+	padding: 12px;
 
 }
 Form {

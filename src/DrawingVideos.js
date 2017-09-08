@@ -13,7 +13,6 @@ export default class drawingVideos extends React.Component {
     return (
 
         <div className="videos">
-
         <div className="album text-muted">
         <div className="container">
 
@@ -50,9 +49,9 @@ export default class drawingVideos extends React.Component {
           </div>
         </div>
       </div>  
-        );
-      }
-    }
+    );
+  }
+}
 
 
 
