@@ -1,4 +1,4 @@
-import React, from "react";
+import React from "react";
 
 class Header extends Component {
 	render() {
@@ -21,7 +21,7 @@ class Header extends Component {
 							<a href="./Drawings.js">Drawings</a>
 						</li>
 						<li>
-							<a href="#">Pictures</a>
+							<a href="./Inspiration.js">Inspiration</a>
 						</li>
 					</ul>
 				</nav>		

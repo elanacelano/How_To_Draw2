@@ -17,9 +17,9 @@ body {
   background-color: #0E2431;
   font-stretch: 10px; 	
 }
-#video {
-	float: left;
-	padding: 15px;
+#videos {
+	height: 100%;
+	width: auto !important;
 
 }
 Form {

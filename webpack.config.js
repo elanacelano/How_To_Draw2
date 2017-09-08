@@ -2,11 +2,13 @@ var webpack = require("webpack");
 
 module.exports = {
   entry: "./src/index.js",
+  
   output: {
     path: __dirname + "/build",
     filename: "bundle.js"
   },
-  devtool: "cheap-module-eval-source-map",
+
+  devtool: "#cheap-module-eval-source-map",
   module: {
     loaders: [
       {
