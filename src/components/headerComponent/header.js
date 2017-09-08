@@ -1,9 +1,17 @@
 import React from "react";
+import ReactDOM from "react-dom";
+import "bootstrap/dist/css/bootstrap.css";
+import "./style.css";
+
+import { Alert, Container, Jumbotron, Card, CardBlock, CardTitle, CardSubtitle, Video } from "reactstrap";
 
 class Header extends Component {
 	render() {
 		return (
-			<header>
+			// <header>
+			// <h1>
+			// 	How to Draw
+			// </h1>
 
 <div className="navbar navbar-dark bg-dark">
       <div className="container d-flex justify-content-between">
@@ -41,32 +49,10 @@ class Header extends Component {
       </div>
     </div>
 
+</div>
 
 
-
-			<div className="logo">
-				How To Draw
-			</div>
-
-				<nav>
-					<ul>
-						<li className="first">
-							<a href="#">Home</a>
-						</li>
-						<li>
-							<a href="./DrawingVideos.js">DrawingVideos</a>
-						</li>
-						<li>
-							<a href="./Drawings.js">Drawings</a>
-						</li>
-						<li>
-							<a href="./Inspiration.js">Inspiration</a>
-						</li>
-					</ul>
-				</nav>		
-
-			</header>	
-		);
+	
 	}
 }
 

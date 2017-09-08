@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import "./style.css";
+// import Header from "./components/header.js";
 import DrawingVideos from "./DrawingVideos.js";
 import Drawings from "./components/Search/Drawings";
 // import Inspiration from "./Inspiration";
@@ -12,9 +13,39 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+
+      <h1 className="logo">
+        How to Draw
+      </h1>
+
+<div className="navbar navbar-dark bg-dark">
+      <div className="container d-flex justify-content-between">
+        <a href="#" className="navbar-brand">Album</a>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+    <div className="container d-flex justify-content-between">
+        <a href="#" className="navbar-brand">Album</a>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <a href="#" className="navbar-brand">Album</a>
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <span className="navbar-toggler-icon"></span>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        
+
+
       <Jumbotron fluid> 
         <Container fluid>
-            <h1>How To Draw</h1>
+          <h2></h2>
           </Container>
           </Jumbotron>
           

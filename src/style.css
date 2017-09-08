@@ -4,14 +4,25 @@ body {
 }
 
 .logo {
+	position: relative;
+	display: block;
+	width: 100%;
+	background: $black;
+	color: $white;
+	height: 50px;	
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 50%;	
+	font-size: 350%;
+	margin: 5%;
+
+}
+.navbar {
+	position: right;
 }
 
 header {
 	position: relative;
 	display: block;
-	width: 500%;
+	width: 100%;
 	background: $black;
 	color: $white;
 	height: 50px;
@@ -33,21 +44,21 @@ header {
 	padding: 12px;
 
 }
-Form {
+/*Form {
 	text-align: right;
 	width: 475px;
 	padding: 5px;
 	border: 10px;
 	margin: 50px;
 	background-color: lightblue;
-}
-.Child {
+}*/
+/*.Child {
 	text-align: right;
 	width: 475px;
-	/*height: 475px;*/
+	height: 475px;
 	padding: 5px;
 	border: 10px;
-}
+}*/
 
 footer {
 	position: absolute;
