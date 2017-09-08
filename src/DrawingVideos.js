@@ -14,6 +14,9 @@ export default class drawingVideos extends React.Component {
 
         <div className="videos">
 
+        <div className="album text-muted">
+        <div className="container">
+
           <div className="row">
             <div className="col-md-4">
               <iframe width="100%" height="auto" src="https://www.youtube.com/embed/UADEFQ4EjIA"></iframe>
@@ -44,8 +47,8 @@ export default class drawingVideos extends React.Component {
             </div>
           </div>
 
-
-
+          </div>
+        </div>
       </div>  
         );
       }

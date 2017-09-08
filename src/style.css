@@ -7,6 +7,16 @@ body {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 50%;	
 }
+
+header {
+	position: relative;
+	display: block;
+	width: 100%;
+	background: $black;
+	color: $white;
+	height: 90px;
+}
+
 .jumbotron {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 100px;
