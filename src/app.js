@@ -1,18 +1,24 @@
-var React = require("react");
-var ReactDom = require("react-dom");
+import React from "react";
+import DrawingVideos from "./Components/DrawingVideos.js";
+import Drawings from "./Components/Drawings";
+import Navigation from './Components/Navigation.js'
+import {Jumbotron, Container} from 'reactstrap';
 
-// grabs the routes
-var routes = require("./config/routes");
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+      <Container>
+        <Navigation/>
+      <Jumbotron fluid> 
+         fdsaf
+      </Jumbotron>
+      <DrawingVideos/> 
+        <Drawings/> 
+        </Container>
+      </div> 
+    )
+  }
+};
 
-
-
-
-
-
-
-
-
-
-
-
-ReactDOM.render(<App />, document.getElementById("app"));
+export default App;

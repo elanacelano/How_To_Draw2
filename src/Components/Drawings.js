@@ -1,12 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import "bootstrap/dist/css/bootstrap.css";
-import "../../style.css";
-// import Links from "./Links";
-
-  
-import { Alert, Container, Jumbotron, Card, CardBlock, CardTitle, CardSubtitle, Video, Component } from "reactstrap";
-
 
 export default class drawings extends React.Component {
   render() {

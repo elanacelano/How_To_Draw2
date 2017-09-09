@@ -1,19 +1,11 @@
 body {
-  text-align:center;
+
 /*  background: "./src/views/pencils.jpg" !important;*/
 }
 
 .logo {
-	position: relative;
-	display: block;
-	width: 100%;
-	background: $black;
-	color: $white;
-	height: 50px;	
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 350%;
-	margin: 5%;
-
+	margin:10px;
 }
 .navbar {
 	position: right;
@@ -61,6 +53,7 @@ header {
 }*/
 
 footer {
+	text-align: center;
 	position: absolute;
 	margin: 25px;
 	width: 100%;
