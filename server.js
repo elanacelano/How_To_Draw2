@@ -6,6 +6,14 @@ var User = require("./models/User");
 var app = express();
 var cheerio = require("cheerio");
 
+//clear pre-flight issues between client & server
+app.all("*",function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Methods", "PUT, GET, POST, DELETE, OPTIONS");
+  res.header("Access-Control-Allow-Headers", "X-Requested-With, content-type, Authorization");
+  next();
+});
+
 
 app.use(bodyParser.json({}));
 app.use(bodyParser.json({ type: "application/vnd.api+json"}));

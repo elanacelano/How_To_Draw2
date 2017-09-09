@@ -1,15 +1,15 @@
 var axios = require("axios");
 
 const helpers = {
-	createUser: (data) =>{
-		console.log(data);
-		return axios.post("/create/user", data)
-		.then((err, data)=>{
-			if (err) throw err;
-			return data;
-		});
+	getPinterestFiles: function(){
+		return axios.get('http://api.pinterest.com/v1/boards/')
+		  .then(function (response) {
+		    return response;
+		  })
+		  .catch(function (error) {
+		    return error;
+		  });
 	}
-
 }
 
 module.exports = helpers;
