@@ -34,18 +34,18 @@ export default class pinIt extends React.Component {
               <p>Drawing</p>
             </div>
             <div className="col-md-4">
-              <img width="100%" height="auto" src="https://www.pinterest.com/pin/567735096748540707/"></img>
+              <a data-pin-do="embedPin" href="https://www.pinterest.com/pin/487233253427671247/"></a>
               <p>Drawing</p>
             </div>
             <div className="col-md-4">
-              <img width="100%" height="auto" src="https://www.youtube.com/embed/7awz4iVRgFo"></img>
+              <a data-pin-do="embedPin" href="https://www.pinterest.com/pin/AaXqAFRTYylQQOFuea2pz_iOQaR4URN09TkmozccgYCIR06rM-OGeVc/"></a>
               <p>Drawing</p>
             </div>
           </div>
  
           <div className="row">
             <div className="col-md-4">
-              <img width="100%" height="auto" src="https://www.youtube.com/embed/aLDAbUxkZj4"></img>
+              <img width="100%" height="auto" src="https://www.pinterest.com/pin/244601823481707800/"></img>
               <p>Drawing</p>
             </div>
             <div className="col-md-4">
