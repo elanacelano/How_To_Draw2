@@ -1,4 +1,5 @@
 body {
+	background-image: url("./views/store.jpg")
 /*    cursor: url("pencil-clipart.png"), pointer;*/
 }
 
@@ -31,6 +32,8 @@ header {
   margin-top: 40px;
   height: 250px;
   color: white;
+  text-shadow: 1px 1px 1px #000;
+  background-image: url("./views/flower.jpg");
 /*  background-image: url("./views/pencils.jpg");*/
   font-stretch: 10px; 	
 }

@@ -13,7 +13,7 @@ class App extends React.Component {
       <Container>
         <Navigation/>
       <Jumbotron fluid> 
-         fdsaf
+         A Page of Inspiration
       </Jumbotron>
       <DrawingVideos/>
       <Pinterests/>

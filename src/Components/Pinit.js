@@ -45,7 +45,7 @@ export default class pinIt extends React.Component {
  
           <div className="row">
             <div className="col-md-4">
-              <img width="100%" height="auto" src="https://www.pinterest.com/pin/244601823481707800/"></img>
+              <img width="100%" height="auto" src="https://www.youtube.com/embed/aLDAbUxkZj4"></img>
               <p>Drawing</p>
             </div>
             <div className="col-md-4">
