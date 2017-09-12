@@ -4,6 +4,7 @@ import Drawings from "./Components/Drawings";
 import Pinterests from "./Components/Pinit";
 import YouTube from "./Components/YouTube";
 import Navigation from './Components/Navigation.js';
+import Footer from './Components/Footer.js';
 import {Jumbotron, Container} from 'reactstrap';
 
 class App extends React.Component {
@@ -17,6 +18,7 @@ class App extends React.Component {
       </Jumbotron>
       <DrawingVideos/>
       <Pinterests/>
+      <Footer/>
         </Container>
       </div> 
     )

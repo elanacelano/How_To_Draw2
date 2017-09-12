@@ -1,6 +1,6 @@
 import React from "react";
 
-class Header extends Component {
+class Footer extends React.Component {
 	render() {
 		return (
 			<footer>
@@ -14,4 +14,4 @@ class Header extends Component {
 	}
 }
 
-export default Header;
+export default Footer;

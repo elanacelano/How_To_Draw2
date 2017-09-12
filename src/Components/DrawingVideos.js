@@ -9,13 +9,6 @@ export default class drawingVideos extends React.Component {
       width: '100%'
     }
     return (
-
-
-
-
-
-
-
           <div className="videos">
             <div className="album text-muted">
           <Row>
