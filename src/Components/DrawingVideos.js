@@ -1,18 +1,17 @@
 import React from "react";
 import {Container, Row, Video } from "reactstrap";
-
+import YouTube from "react-youtube";
 
 export default class drawingVideos extends React.Component {
   render() {
+    const opts = {
+      height: 'auto',
+      width: '100%'
+    }
     return (
 
 
-<iframe id="existing-iframe-example"
-        width="640" height="360"
-        src="https://www.youtube.com/embed/UADEFQ4EjIA"
-        frameborder="0"
-        style="border: solid 4px #37474F"
-></iframe>
+
 
 
 
@@ -21,31 +20,56 @@ export default class drawingVideos extends React.Component {
             <div className="album text-muted">
           <Row>
             <div className="col-md-4">
-              <iframe width="100%" height="auto" src="https://www.youtube.com/embed/UADEFQ4EjIA"></iframe>
-              <p>Drawing</p>
+            
+              <YouTube
+                videoId="UADEFQ4EjIA"
+                opts={opts}
+                onReady={this._onReady}
+                />
+              <p> </p>
             </div>
             <div className="col-md-4">
-              <iframe width="100%" height="auto" src="https://www.youtube.com/embed/JWHztcZHmfc"></iframe>
-              <p>Drawing</p>
+             <YouTube
+                videoId="JWHztcZHmfc"
+                opts={opts}
+                onReady={this._onReady}
+                />
+              <p> </p>
             </div>
             <div className="col-md-4">
-              <iframe width="100%" height="auto" src="https://www.youtube.com/embed/7awz4iVRgFo"></iframe>
-              <p>Drawing</p>
+             <YouTube
+                videoId="7awz4iVRgFo"
+                opts={opts}
+                onReady={this._onReady}
+                />
+              <p> </p>
             </div>
           </Row>
  
           <Row>
             <div className="col-md-4">
-              <iframe width="100%" height="auto" src="https://www.youtube.com/embed/aLDAbUxkZj4"></iframe>
-              <p>Drawing</p>
+              <YouTube
+                videoId="aLDAbUxkZj4"
+                opts={opts}
+                onReady={this._onReady}
+                />
+              <p> </p>
             </div>
             <div className="col-md-4">
-              <iframe width="100%" height="auto" src="https://www.youtube.com/embed/ZP8goZl9JH0"></iframe>
-              <p>Drawing</p>
+              <YouTube
+                videoId="ZP8goZl9JH0"
+                opts={opts}
+                onReady={this._onReady}
+                />
+              <p> </p>
             </div>
             <div className="col-md-4">
-              <iframe width="100%" height="auto" src="https://www.youtube.com/embed/1OAWvq4L2cY"></iframe>
-              <p>Drawing</p>
+              <YouTube
+                videoId="1OAWvq4L2cY"
+                opts={opts}
+                onReady={this._onReady}
+                />
+              <p> </p>
             </div>
           </Row>
           </div>
