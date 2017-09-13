@@ -12,10 +12,10 @@ class Navigation extends React.Component {
           <Collapse navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Drawings</NavLink>
+                <NavLink href="/components/"> </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">Inspiration</NavLink>
+                <NavLink href="https://github.com/reactstrap/reactstrap"> </NavLink>
               </NavItem>
             </Nav>
           </Collapse>

@@ -1,5 +1,4 @@
 import React from "react";
-// import { PinItButton, PinterestFollowButton, PinterestPinWidget, PinterestBoardWidget, PinterestProfileWidget, PinterestGrid, PinterestPinWidget } from "react-pinterest";
 import {Container, Row} from "reactstrap";
 import {PinItButton,
     PinterestFollowButton,
@@ -24,7 +23,25 @@ export default class pinIt extends React.Component {
             </div>
             <div className="col-md-4">   
                 <PinterestPinWidget size={size} pin="193795590184950367" />
+            </div> 
+            <div className="col-md-4">
+                <PinterestPinWidget size={size} pin="215891375860202940" />
             </div>
+            <div className="col-md-4">
+                <PinterestPinWidget size={size} pin="177118197815718623" />
+            </div>
+            <div className="col-md-4">
+                <PinterestPinWidget size={size} pin="27373510206669218" />
+            </div>
+            <div className="col-md-4">
+                <PinterestPinWidget size={size} pin="588986457488139167" />
+            </div>
+            <div className="col-md-4">
+                <PinterestPinWidget size={size} pin="457678380854076785" />
+            </div>
+            <div className="col-md-4">
+                <PinterestPinWidget size={size} pin="244601823481707800" />
+            </div> 
             <div className="col-md-4">
                 <PinterestPinWidget size={size} pin="487233253427671247" />
             </div>
@@ -35,14 +52,4 @@ export default class pinIt extends React.Component {
     );
   }
 }
-
-
-
-
-      // <div className="pinterest-app">
-      //   <div className="pinIt">
-      //       <div className="album-text-muted">
-      //           <div className="container">
-
-
 

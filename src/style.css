@@ -1,6 +1,5 @@
 body {
-	background-image: url("./views/store.jpg")
-/*    cursor: url("pencil-clipart.png"), pointer;*/
+	background-image: url("./views/store.jpg");
 }
 
 .logo {
@@ -27,6 +26,7 @@ header {
 
 .jumbotron-fluid {
   font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
   font-size: 100px;
   margin-bottom: 25px;
   margin-top: 40px;
@@ -46,31 +46,20 @@ header {
 }
 
 .pinterest-app {
-/*	height: auto;
-	width: 30%;
-	padding: 2px;
-	float: left;*/
-	
+display: block;
+margin: 0px;
+padding: 0px;
+/*position: relative;*/
+/*top: 90px;*/
+height: auto;
+max-width: auto;
+/*overflow-y: hidden;*/
+overflow-x:auto;
 }
 
 .pin-widget-meta, .pin-widget-description, .pin-widget-footer {
 	display:none;
 }
-/*Form {
-	text-align: right;
-	width: 475px;
-	padding: 5px;
-	border: 10px;
-	margin: 50px;
-	background-color: lightblue;
-}*/
-/*.Child {
-	text-align: right;
-	width: 475px;
-	height: 475px;
-	padding: 5px;
-	border: 10px;
-}*/
 
 footer {
 	text-align: center;
