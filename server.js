@@ -110,7 +110,7 @@ app.post("*", function(req, res){
 
 
 
-var PORT = 3000;
+var port = process.env.PORT || 3000;
 
 app.listen(PORT, function(){
   console.log("App listening on PORT: " + PORT);
