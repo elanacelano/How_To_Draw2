@@ -25,11 +25,12 @@ header {
 	height: 50px;
 }
 
-.jumbotron {
+.jumbotron-fluid {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 100px;
   margin-bottom: 25px;
   margin-top: 40px;
+  margin-left: 10px;
   height: 250px;
   color: white;
   text-shadow: 3px 3px 3px #000;
@@ -44,11 +45,16 @@ header {
 
 }
 
-.pinterest {
-	height: 100%;
-	width: auto !important;
-	padding: 12px;
+.pinterest-app {
+/*	height: auto;
+	width: 30%;
+	padding: 2px;
+	float: left;*/
 	
+}
+
+.pin-widget-meta, .pin-widget-description, .pin-widget-footer {
+	display:none;
 }
 /*Form {
 	text-align: right;
